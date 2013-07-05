@@ -1,0 +1,14 @@
+[
+	{
+		"appname" : "Menu Clientes", 
+		"description" : "Modulo Clientes",
+		"favorite" : "true",
+		"lastView" : "2013-07-05 11:00:00.00"
+	},
+	{
+		"appname" : "Menu Ventas", 
+		"description" : "Modulo Ventas diarias",
+		"favorite" : "false",
+		"lastView" : ""
+	}
+]
