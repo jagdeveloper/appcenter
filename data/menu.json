@@ -1,14 +1,93 @@
 [
 	{
+		"id" : "menu-clientes",
 		"appname" : "Menu Clientes", 
 		"description" : "Modulo Clientes",
-		"favorite" : "true",
+		"favorite" : true,
 		"lastView" : "2013-07-05 11:00:00.00"
 	},
 	{
+		"id" : "menu-clientes1",
+		"appname" : "Menu Clientes", 
+		"description" : "Modulo Clientes",
+		"favorite" : true,
+		"lastView" : "2013-07-05 11:00:00.00"
+	},
+	{
+		"id" : "menu-clientes2",
+		"appname" : "Menu Clientes", 
+		"description" : "Modulo Clientes",
+		"favorite" : true,
+		"lastView" : "2013-07-05 11:00:00.00"
+	},
+	{
+		"id" : "menu-ventas",
 		"appname" : "Menu Ventas", 
 		"description" : "Modulo Ventas diarias",
-		"favorite" : "false",
+		"favorite" : false,
+		"lastView" : ""
+	},
+	{
+		"id" : "menu-ventas1",
+		"appname" : "Menu Ventas", 
+		"description" : "Modulo Ventas diarias",
+		"favorite" : false,
+		"lastView" : ""
+	},
+	{
+		"id" : "menu-ventas2",
+		"appname" : "Menu Ventas", 
+		"description" : "Modulo Ventas diarias",
+		"favorite" : false,
+		"lastView" : ""
+	},
+	{
+		"id" : "menu-precios",
+		"appname" : "Menu Precios", 
+		"description" : "Modulo actualización precios",
+		"favorite" : false,
+		"lastView" : ""
+	},
+	{
+		"id" : "menu-precios1",
+		"appname" : "Menu Precios", 
+		"description" : "Modulo actualización precios",
+		"favorite" : false,
+		"lastView" : ""
+	},
+	{
+		"id" : "menu-precios2",
+		"appname" : "Menu Precios", 
+		"description" : "Modulo actualización precios",
+		"favorite" : false,
+		"lastView" : ""
+	},
+	{
+		"id" : "menu-seguridad",
+		"appname" : "Menu Seguridad", 
+		"description" : "Modulo de autorización a programas",
+		"favorite" : false,
+		"lastView" : ""
+	},
+	{
+		"id" : "menu-seguridad1",
+		"appname" : "Menu Seguridad", 
+		"description" : "Modulo de autorización a programas",
+		"favorite" : false,
+		"lastView" : ""
+	},
+	{
+		"id" : "menu-seguridad2",
+		"appname" : "Menu Seguridad", 
+		"description" : "Modulo de autorización a programas",
+		"favorite" : false,
+		"lastView" : ""
+	},
+	{
+		"id" : "menu-seguridad3",
+		"appname" : "Menu Seguridad3", 
+		"description" : "Modulo de autorización a programas",
+		"favorite" : false,
 		"lastView" : ""
 	}
 ]

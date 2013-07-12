@@ -1,13 +1,12 @@
 <div class="app-menu">
     <div class="row filter">
         <div class="span4 btn-group" data-toggle="buttons-radio">
-          <button type="button" class="btn btn-inverse active">Todas</button>
-          <button type="button" class="btn btn-inverse">Recientes</button>
-          <button type="button" class="btn btn-inverse">Favoritas</button>
+          <button type="button" class="btn btn-inverse active" id="allButton">Todas</button>
+          <button type="button" class="btn btn-inverse" id="favoriteButton">Favoritas</button>
         </div>
         <form class="span5 form-search form-inline pull-right">
-            <input type="text" class="input-large search-query" placeholder="Buscar...">
-            <button type="submit" class="btn">Buscar</button>
+            <input type="text" class="input-large search-query" id="searchText" placeholder="Buscar...">
+            <button type="submit" class="btn" id="searchButton">Buscar</button>
         </form>
     </div>
     <ul class="breadcrumb">
@@ -16,18 +15,11 @@
       <li class="active">Data</li>
     </ul>
     <hr/>
+    <div class="pagination pagination-large pagination-centered">
+      
+    </div>
     <div class="row items">
         
     </div>
-    <div class="pagination pagination-centered">
-      <ul>
-        <li><a href="#">Prev</a></li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li><a href="#">Next</a></li>
-      </ul>
-    </div>
+    
 </div>

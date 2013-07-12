@@ -19,3 +19,55 @@ window.templateLoader = {
     }
 
 };
+window.page = {
+    
+    pagination : function(collection) {
+        var page = this.page-1;
+        if (!collection){
+            var collection = this;
+        }
+        collection = _(collection.rest(this.perPage*page));
+        collection = _(collection.first(this.perPage));    
+        return collection.map( function(model) { return model } ); 
+    },
+
+    currentPage : function(currentPage){
+        this.page = currentPage;
+    }, 
+
+    configPagination : function(size, perPage){
+        if (!this.page){
+            this.page = 1;
+        }
+        this.perPage = perPage;
+        this.pages = parseInt(size/perPage);
+        if ( (size/perPage) - parseInt(size/perPage) != 0 ){
+            this.pages++;
+        }
+
+    }, 
+
+    /**
+    * Generate list page buttons links
+    * @autor(Jhony Alexander Garcia Gómez - INTAP S.A.S)
+    **/
+    pageBar: function(){
+
+        var pagebar = '';
+        if (this.pages > 1){
+            pagebar = '<ul> ' +
+                          '<li class="' + (this.page == 1 ? 'active' : '') + '"><a href="#">«</a></li> ';
+
+            for (var i = 1 ; i <= this.pages; i++) {
+
+                pagebar += '<li class="' + (this.page == i ? 'active' : '') + '"><a href="#">' + i + '</a></li> ';
+            };
+
+            pagebar += '<li class="' + (this.page == this.pages ? 'active' : '') + '"><a href="#">»</a></li> '+
+                       '</ul>';
+        }
+        return pagebar;
+    }
+
+
+};

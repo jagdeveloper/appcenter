@@ -1,5 +1,11 @@
 <div class="span3 menu-item">
-	<h4>Application Name</h4>
-	<p>Aplication description.</p>
-	<span class="add-on"><i class="icon-star icon-white"></i></span>          
-</div>	
+	<h4><%= appname %></h4>
+	<p><%= description %></p>
+	<span class="add-on">
+		<% if (typeof(favorite) != "undefined" && favorite === true) { %>
+		    <i id="favorite" class="icon-star icon-white"></i>
+		<% }else{ %>
+			<i id="favorite" class="icon-star-empty icon-white"></i>
+		<%} %>
+	</span>          
+</div>

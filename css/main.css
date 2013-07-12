@@ -50,8 +50,8 @@ body {
    ========================================================================== */
 
 .app-menu .items {
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .app-menu .filter {
   margin: 0.5em 0.5em 0.5em 0.5em;
